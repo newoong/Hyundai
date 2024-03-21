@@ -1,0 +1,68 @@
+# python main.py --config_file './config9/config_merge_6EF1A7_50호차_202112.yaml'
+# python main.py --config_file './config9/config_merge_6EF1F7_50_202212.yaml'
+
+# python main.py --config_file './config9/config_merge_926FE4_43호차_202212.yaml'
+# python main.py --config_file './config9/config_merge_210218_15호차.yaml'
+# python main.py --config_file './config9/config_merge_210507_210607_27호차.yaml'
+# python main.py --config_file './config9/config_merge_210514_210614_37호차.yaml'
+# python main.py --config_file './config9/config_merge_210616_210716_16호차.yaml'
+# python main.py --config_file './config9/config_merge_210630_210730_27호차.yaml'
+# python main.py --config_file './config9/config_merge_220201_51호차.yaml'
+# python main.py --config_file './config9/config_merge_AEF037_11호차_202207.yaml'
+# python main.py --config_file './config9/config_merge_AEF037_15호차_202204.yaml'
+# python main.py --config_file './config9/config_merge_AEF037_15호차_202212.yaml'
+# python main.py --config_file './config9/config_merge_normal_17호차_202301.yaml'
+# python main.py --config_file './config9/config_merge_normal_35호차_23년 1월.yaml'
+# python main.py --config_file './config9/config_merge_normal_36호차_202202.yaml'
+# python main.py --config_file './config9/config_merge_6EF187_38_202207.yaml'
+# python main.py --config_file './config9/config_merge_6EF187_45_202211.yaml'
+
+
+# python main.py --config_file './config9/config_merge_normal_221001_221008_10.yaml'
+
+
+# python main.py --config_file './config9/config_normal8.yaml'
+# python main.py --config_file './config9/config_break8.yaml'
+# python main.py --config_file './config9/config_break8_1.yaml'
+# python main.py --config_file './config9/config_break36.yaml'
+# python main.py --config_file './config9/config_normal17.yaml'
+# python main.py --config_file './config9/config_break17.yaml'
+# python main.py --config_file './config9/config_normal43.yaml'
+# python main.py --config_file './config9/config_break43.yaml'
+# python main.py --config_file './config9/config_normal12.yaml'
+# python main.py --config_file './config9/config_break51.yaml'
+# python main.py --config_file './config9/config_break24.yaml'
+# python main.py --config_file './config9/config_break30.yaml'
+# python main.py --config_file './config9/config_normal36.yaml'
+# python main.py --config_file './config9/config_normal30.yaml'
+# python main.py --config_file './config9/config_normal24.yaml'
+# python main.py --config_file './config9/config_normal50_2.yaml'
+# python main.py --config_file './config9/config_break50.yaml'
+# python main.py --config_file './config9/config_break51_2.yaml'
+# python main.py --config_file './config9/config_break10.yaml'
+# python main.py --config_file './config9/config_break45.yaml'
+# python main.py --config_file './config9/config_break40.yaml'
+# python main.py --config_file './config9/config_break46.yaml'
+# python main.py --config_file './config9/config_break15.yaml'
+
+# python main.py --config_file './config9/config_train7.yaml'
+# python main.py --config_file './config9/config_train19.yaml'
+# python main.py --config_file './config9/config_train23.yaml'
+# python main.py --config_file './config9/config_train42.yaml'
+# python main.py --config_file './config9/config_train8.yaml'
+# python main.py --config_file './config9/config_train11.yaml'
+# python main.py --config_file './config9/config_train12.yaml'
+# python main.py --config_file './config9/config_train13.yaml'
+# python main.py --config_file './config9/config_train14.yaml'
+
+# python main.py --config_file './config9/config_train15.yaml'
+# python main.py --config_file './config9/config_train16.yaml'
+# python main.py --config_file './config9/config_train18.yaml'
+
+# python main.py --config_file './config9/config_break37.yaml'
+# python main.py --config_file './config9/config_break36_1.yaml'
+# python main.py --config_file './config9/config_break43_1.yaml'
+
+python main.py --config_file './config9/config_break40_1.yaml' #pca90_merge_6EF1B7_40_202301
+python main.py --config_file './config9/config_break36_2.yaml' #pca90_merge_6EF1B7_36_202301
+python main.py --config_file './config9/config_break40_2.yaml' #pca90_merge_6EF1B7_40_202302

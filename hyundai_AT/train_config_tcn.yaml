@@ -1,0 +1,36 @@
+lr: 1e-4
+num_epochs: 100
+k: 3
+win_size: 60
+input_c: 773
+output_c: 773
+batch_size: 128
+pretrained_model: None
+mode: train
+data_path: //192.168.0.67/졸업논문 data/prototype_data
+model_save_path: TCN/checkpoint1
+anormly_ratio: 4.00
+test_path: //192.168.0.64/hyundai/RE/data/pca_data/06.05/test/pca90_scale_X/pca90_merge_6EF1F7_50_202212.parquet
+calculate: False
+d_model: 512
+dataset: Hyundai
+d_ff: 512
+e_layers: 6
+max_len: 1000
+drop_out : 0.1
+
+# batch_size: 128
+# cuda: 0
+# dropout: 0.0
+# clip: 1.0
+# epochs: 100
+# ksize: 8
+# iters: 100
+# levels: 8
+# blank_len: 1000
+# seq_len: 10
+# log-interval: 50
+# lr: 1e-3
+# optim: Adam
+# nhid: 10
+# seed: 1111

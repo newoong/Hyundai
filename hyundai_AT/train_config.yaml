@@ -1,0 +1,36 @@
+lr: 1e-4
+num_epochs: 50
+k: 3
+win_size: 60
+input_c: 772
+output_c: 772
+batch_size: 64
+pretrained_model: None
+mode: train
+data_path: N:/RE/data/3d_data/0922
+model_save_path: checkpoint11
+anormly_ratio: 4.00
+test_path: N:/RE/data/pca_data/08.14/test/pca90_scale_X/pca90_merge_6EF1F7_50_202212.parquet
+calculate: False
+d_model: 1024
+dataset: Hyundai
+d_ff: 2048
+e_layers: 10
+max_len: 1000
+drop_out : 0.1
+
+# batch_size: 128
+# cuda: 0
+# dropout: 0.0
+# clip: 1.0
+# epochs: 100
+# ksize: 8
+# iters: 100
+# levels: 8
+# blank_len: 1000
+# seq_len: 10
+# log-interval: 50
+# lr: 1e-3
+# optim: Adam
+# nhid: 10
+# seed: 1111
