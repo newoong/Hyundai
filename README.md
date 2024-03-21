@@ -13,17 +13,17 @@
 ### hyundai_LGBM
 - captured image of original code which located in VDI
 - Solution with LGBM
-  1️⃣ 트리 모델 3가지를 통해 변수 중요도 산정 후 상위 40개씩 합집합(불필요한 변수가 들어가면서 적당한 노이즈 효과를 주어 일반화 성능 향상)
-  2️⃣ 정상 0, 전조 1, 고장 2 라벨링 전조 시간을 4시간부터 12시간까지 1시간 단위로 변경해가며 라벨링 후 검증(자동화 되어있음)
-  3️⃣ 전조 시간을 4시간부터 12시간까지 1시간 단위로 변경해가며 라벨링 후 검증(자동화 되어있음)optuna를 통해 parameter 최적화
-  4️⃣ optuna를 통해 parameter 최적화
+  1️⃣ 트리 모델 3가지를 통해 변수 중요도 산정 후 상위 40개씩 합집합(불필요한 변수가 들어가면서 적당한 노이즈 효과를 주어 일반화 성능 향상)  
+  2️⃣ 정상 0, 전조 1, 고장 2 라벨링 전조 시간을 4시간부터 12시간까지 1시간 단위로 변경해가며 라벨링 후 검증(자동화 되어있음)  
+  3️⃣ 전조 시간을 4시간부터 12시간까지 1시간 단위로 변경해가며 라벨링 후 검증(자동화 되어있음)optuna를 통해 parameter 최적화  
+  4️⃣ optuna를 통해 parameter 최적화  
   5️⃣ 예측 결과를 휴리스틱 방식으로 resample하여 성능 최적화
 
 ### hyundai_AD
 - Solution with Anomaly Transformer
-  1️⃣ 파생 변수 생성(resample로 sampling rate 통일할 때 mean, std, mse, min, max 등 생성)
-  2️⃣ 변수 개수 줄이기 위해 파상변수끼리 PCA 0.9 진행
-  3️⃣ 연구 목표 및 데이터 특성 고려해 Prior Association 강화(softmax와 비슷한 작업으로 합 1 수치로 변경할 때 temperture 낮춤)
+  1️⃣ 파생 변수 생성(resample로 sampling rate 통일할 때 mean, std, mse, min, max 등 생성)  
+  2️⃣ 변수 개수 줄이기 위해 파상변수끼리 PCA 0.9 진행  
+  3️⃣ 연구 목표 및 데이터 특성 고려해 Prior Association 강화(softmax와 비슷한 작업으로 합 1 수치로 변경할 때 temperture 낮춤)  
   4️⃣ 산출된 Anomaly Score를 휴리스틱 방식으로 임계값 설정(일반화 실패)
 
 ### 연구 결과
